@@ -13,6 +13,7 @@
 		4976F0291D7826CA00C0F33A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976F0271D7826CA00C0F33A /* Main.storyboard */; };
 		4976F02B1D7826CA00C0F33A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4976F02A1D7826CA00C0F33A /* Assets.xcassets */; };
 		4976F02E1D7826CA00C0F33A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4976F02C1D7826CA00C0F33A /* LaunchScreen.storyboard */; };
+		4976F0381D7827D200C0F33A /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 4976F0371D7827D200C0F33A /* NSString+Hash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4976F02A1D7826CA00C0F33A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4976F02D1D7826CA00C0F33A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4976F02F1D7826CA00C0F33A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4976F0361D7827D200C0F33A /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		4976F0371D7827D200C0F33A /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4976F01D1D7826CA00C0F33A /* MDJOutLineDownLoad */ = {
 			isa = PBXGroup;
 			children = (
+				4976F0351D7827D200C0F33A /* MD5 */,
 				4976F0211D7826CA00C0F33A /* AppDelegate.h */,
 				4976F0221D7826CA00C0F33A /* AppDelegate.m */,
 				4976F0241D7826CA00C0F33A /* ViewController.h */,
@@ -77,6 +81,15 @@
 				4976F01F1D7826CA00C0F33A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4976F0351D7827D200C0F33A /* MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				4976F0361D7827D200C0F33A /* NSString+Hash.h */,
+				4976F0371D7827D200C0F33A /* NSString+Hash.m */,
+			);
+			path = MD5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4976F0261D7826CA00C0F33A /* ViewController.m in Sources */,
+				4976F0381D7827D200C0F33A /* NSString+Hash.m in Sources */,
 				4976F0231D7826CA00C0F33A /* AppDelegate.m in Sources */,
 				4976F0201D7826CA00C0F33A /* main.m in Sources */,
 			);
