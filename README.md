@@ -4,3 +4,5 @@
 
 * 使用 ```NSURLSession``` 请求数据
 * 使用 ```NSURLSessionDataTask``` 加载
+
+![image](https://raw.githubusercontent.com/XiaoMingZhiDao/MDJOutLineDownLoad/master/23.png)
